@@ -5,10 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview --port $PORT --host",
-  "start": "serve -s dist -l $PORT"
+ "build": "vite build",
+  "start": "serve -s dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -49,7 +47,6 @@
     "react-router-dom": "^7.6.1",
     "react-webcam": "^7.2.0",
     "recharts": "^3.1.0",
-    "serve": "^14.2.5",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.22.2",
     "tailwindcss": "^4.1.10",
@@ -64,6 +61,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
+    "serve": "^14.2.5",
     "vite": "^6.3.5"
   }
 }
